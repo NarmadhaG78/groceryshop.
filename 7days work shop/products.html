@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav><br><br><br>
+
+    <div class="container">
+        <h1>Available Products</h1>
+        <div class="products-container">
+            <div class="product-box">
+                <img src="apples.avif" alt="Apples">
+                <p>Fresh Apples - $5.99</p>
+                <button onclick="addToCart('Fresh Apples', 5.99)">Add to Cart</button>
+            </div>
+            <div class="product-box">
+                <img src="bananas.jpg" alt="Bananas">
+                <p>Organic Bananas - $3.49</p>
+                <button onclick="addToCart('Organic Bananas', 3.49)">Add to Cart</button>
+            </div>
+            <div class="product-box">
+                <img src="carrot.jpg" alt="Carrots">
+                <p>Carrots - $2.99</p>
+                <button onclick="addToCart('Carrots', 2.99)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
